@@ -1,0 +1,29 @@
+.text-green{
+    color: rgb(29, 193, 138);
+    
+}
+.appoint-background{
+    background-image: url(../../../images/Mask\ Group\ 1.png);
+    height: 300px;
+    position: relative;
+    z-index: -30;
+    background-position: center;
+    background-size: cover;
+}
+.appoint-background::before{
+    content:'';
+    background: rgb(36, 41, 73);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    z-index: -10;
+}
+.container{
+    z-index: 20;
+    
+}
+.doctor{
+    transform: translateY(-118px);
+    height: 370px;
+}

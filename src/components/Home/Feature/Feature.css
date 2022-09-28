@@ -1,0 +1,11 @@
+.featuredImg{
+    height: 370px;
+}
+.feature{
+    height: 400px;
+}
+.feature small{
+    padding-right: 10px;
+    color:gray;
+    margin-right: 3%;
+}

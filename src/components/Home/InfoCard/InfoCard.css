@@ -1,0 +1,19 @@
+.info-primary{
+    background-color: rgba(10, 198, 189, 0.872);
+}
+.info-dark{
+    background-color: rgba(66, 33, 141, 0.71);
+}
+.icon{
+    height: 35px;
+    color:aliceblue;
+}
+
+.info-container{
+    height: 74px;
+    width:242px;
+    padding: 8px;
+    margin: 4px;
+    color: white;
+    border-radius: 5px;
+}

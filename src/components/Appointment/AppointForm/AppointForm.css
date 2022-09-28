@@ -1,0 +1,10 @@
+input{
+    margin: 5px;
+    padding: 5px;
+    width: 350px;
+}
+.button{
+    transform: translateX(260px);
+    margin-top: 10px;
+    width: 100px;
+}

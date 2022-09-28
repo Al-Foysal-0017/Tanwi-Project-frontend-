@@ -1,0 +1,12 @@
+.footer li{
+    list-style: none;
+    padding: 5px;
+}
+.footer{
+    height: 400px;
+}
+.footer h6{
+    color: #1cc7c1;
+   margin-left: 30px;
+   padding-bottom: 20px;
+}

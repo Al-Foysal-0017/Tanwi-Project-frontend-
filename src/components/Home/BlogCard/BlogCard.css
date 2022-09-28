@@ -1,0 +1,15 @@
+.blog-img{
+    height: 50px;
+}
+.cards p{
+    color: gray;
+}
+.cards{
+    border: 1px solid lightgray;
+    transform: translateY(30px);
+    height: 280px;
+    width: 220px;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 1px 1px 8px lightgrey;
+}

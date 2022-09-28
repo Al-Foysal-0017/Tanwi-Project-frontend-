@@ -1,0 +1,26 @@
+.gradient{
+    background-image: url(../../../images/quote.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: .8;
+    height: 280px;
+    width: 220px;
+    z-index: -40;
+   transform: translateX(60px);
+}
+.gradient::before{
+    background-image: linear-gradient(90deg ,rgb(10, 152, 86) ,cyan);
+    position: absolute;
+    content:'';
+    height: 100%;
+    width: 100%;
+    z-index: -20;
+    opacity: .8;
+    border-radius: 8px;
+}
+.container{
+    margin-right: 0%;
+}
+

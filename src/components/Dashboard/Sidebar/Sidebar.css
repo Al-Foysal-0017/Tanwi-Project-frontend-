@@ -1,0 +1,24 @@
+.sidebar{
+    background-image:linear-gradient(180deg, rgb(56, 232, 165), rgb(81, 200, 239)) ;
+    height: 100vh;
+    color:white;
+    position: fixed;
+}
+
+.icon{
+    size: 30px;
+}
+.sidebar li{
+    list-style: none;
+    margin: 20px;
+}
+.option{
+    display: inline-block;
+}
+.icon{
+    margin-right: 10px;
+    height: 20px;
+}
+.logout{
+    transform: translateY(150px);
+}

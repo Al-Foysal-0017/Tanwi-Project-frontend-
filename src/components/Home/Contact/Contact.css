@@ -1,0 +1,27 @@
+.contact-container {
+  background-image: url(../../../images/Mask\ Group\ 4.png);
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -10;
+}
+.contact-container::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(36, 41, 73);
+  z-index: -2;
+  opacity: 0.8;
+  display: block;
+}
+.mail-box {
+  height: 35px;
+  width: 350px;
+}
+.msg {
+  height: 85px;
+  width: 350px;
+}

@@ -1,0 +1,46 @@
+.log-img {
+  background-size: cover;
+  height: 90vh;
+  transform: translateY(40px);
+}
+.form {
+  background-color: rgb(244, 237, 237);
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+label {
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+.authSwip {
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+.authSwipLink {
+  font-size: 17px;
+  color: #1dc18a;
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.authSwipLink:hover {
+  color: #085ed6;
+}
+
+@media (max-width: 1024px) {
+  .form {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 840px) {
+  .form {
+    margin: 1rem;
+  }
+}
